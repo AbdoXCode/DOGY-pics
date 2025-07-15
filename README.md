@@ -2,8 +2,6 @@
 
 A simple Node.js web app that fetches and displays random dog images using the [Dog CEO API](https://dog.ceo/dog-api/).
 
-🌐 **Live Demo**: [https://dogy-pics.fly.dev](https://dogy-pics.fly.dev)
-
 ---
 
 ## 🚀 Features
