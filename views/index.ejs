@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOGY Pics</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <% if(locals.img){ %>
+    <img src="<%= img %>" width="200px" alt="dog pic" />
+    <% }else{ %>
+    <p>Click this button 👇</p>
+    <% } %>
+    <form method="post">
+      <input
+        id="random"
+        type="submit"
+        value="RANDOM DOG"
+        formaction="/random-dog"
+      />
+    </form>
+  </body>
+</html>
